@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class IndexSlide extends Model
 {
 	const STATUS_ENABLED = 1;
-	const STATUS_DISA BLED = 0;
+	const STATUS_DISABLED = 0;
 	
 	protected $table = 'index_slides';
 	
