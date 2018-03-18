@@ -2,7 +2,7 @@
 
 return [
 	
-	'main_title' => 'Websajt glavni naslov',
+	'main_title' => 'Derma klinika',
 	
 	'contact_us_success' => 'Vasa poruka je poslata, uskoro cemo vas kontaktirati!',
 ];
