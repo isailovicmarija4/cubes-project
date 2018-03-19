@@ -1,11 +1,6 @@
 @extends('front.layout')
 @section('content')
 
-
-
-
-
-
 <main>
 
             <!-- CAROUSEL -->
@@ -475,3 +470,7 @@
                 </div>
             </section>
         </main>
+
+@push('footer_javascript')
+ <script src="{{url('/skins/front/js/owl.carousel.js')}}" type="text/javascript"></script>
+ @endpush

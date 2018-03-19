@@ -18,11 +18,11 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                             <ul class="nav navbar-nav navbar-right  dropShop">
-                                <li><a href="#" class="text-uppercase">HOME</a></li>
-                                <li><a href="#" class="text-uppercase" data-toggle="modal" data-target="#myModal">PAGES</a></li>
+                                <li><a href="#" class="text-uppercase">Naslovna</a></li>
+                                  <li><a href="#" class="text-uppercase">O nama</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle text-uppercase" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                        SHOP<span class="caret" style="color:#6cc513;"></span>
+                                        Proizvodi<span class="caret" style="color:#6cc513;"></span>
                                     </a>
                                     <ul class="dropdown-menu dropSpa">
                                         <li><a href="#">SPA WOMEN</a></li>
@@ -30,8 +30,18 @@
                                         <li><a href="#">SPA ALL</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#" class="text-uppercase">GALERY</a></li>
-                                <li><a href="#" class="text-uppercase">CONTACT</a></li>
+                                 <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle text-uppercase" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        Tretmani<span class="caret" style="color:#6cc513;"></span>
+                                    </a>
+                                    <ul class="dropdown-menu dropSpa">
+                                        <li><a href="#">SPA WOMEN</a></li>
+                                        <li><a href="#">SPA MEN</a></li>
+                                        <li><a href="#">SPA ALL</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li><a href="#" class="text-uppercase">Kontakt</a></li>
                                 <li class="shopingCart"><a href="#"><span class="fa fa-shopping-cart"></span><span class="badge">02</span></a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->

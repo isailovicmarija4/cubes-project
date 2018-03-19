@@ -52,13 +52,13 @@
                                         <div class="smallLine"></div>
                                     </li>
                                     <li>
-                                        <p class="map"><span class="fa fa-map-marker"></span>&nbsp; 28 Green Tower, Street Name New York City, USA</p>
+                                        <p class="map"><span class="fa fa-map-marker"></span>&nbsp; Takovska 5,Beograd</p>
                                     </li>
                                     <li>
-                                        <p class="map"><span class="fa fa-phone"></span>&nbsp; +00880-444 222 333</p>
+                                        <p class="map"><span class="fa fa-phone"></span>&nbsp; 0115550055</p>
                                     </li>
                                     <li>
-                                        <p class="map"><a href="mailto:contact@plashbeauty.com"><span class="fa fa-envelope"></span>&nbsp; contact@plashbeauty.com</a></p>
+                                        <p class="map"><a href="mailto:contact@plashbeauty.com"><span class="fa fa-envelope"></span>&nbsp; dermak@gmail.com</a></p>
                                     </li>
                                 </ul>
                             </article>
@@ -69,13 +69,13 @@
                                 <div class="smallLine"></div>
                                 <ul class="list-unstyled">
                                     <li>
-                                        <a href="#">About Us</a>
+                                        <a href="#">O nama</a>
                                     </li>
                                     <li>
-                                        <a href="#">Our Products</a>
+                                        <a href="#">Proizvodi</a>
                                     </li>
                                     <li>
-                                        <a href="#">Popular Brands</a>
+                                        <a href="#">Tretmani</a>
                                     </li>
                                     <li>
                                         <a href="#">Blog</a>
@@ -109,29 +109,7 @@
                                 </ul>
                             </article>
                         </div>
-                        <div class="col-md-2">
-                            <article>
-                                <h4>Quick Links</h4>
-                                <div class="smallLine"></div>
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="#">Advanced Search</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Site Map</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Checkout</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Praivecy Policy</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">FAQs</a>
-                                    </li>
-                                </ul>
-                            </article>
-                        </div>
+                       
                         <div class="col-md-3">
                             <article>
                                 <h4>Payment Methods</h4>
