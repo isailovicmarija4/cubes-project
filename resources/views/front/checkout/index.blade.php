@@ -1,17 +1,25 @@
 @extends('front.layout')
-
-@section('head_title', 'Checkout')
-
 @section('content')
-		<div id="highlighted">
-			<div class="container">
-				<div class="header">
-					<h2 class="page-title">
-						<span>Checkout</span>
-					</h2>
-				</div>
-			</div>
-		</div>
+@section('head_title', 'Checkout')
+		   <section class="frid clearfix">
+                <figure>
+                    <img src="{{url('/skins/front/img/webshop.JPG')}}" alt="" class="img-responsive"/>
+                </figure>
+                <div class="gridView">
+                    <h3 class="text-uppercase text-center">CHECKOUT</h3>
+                    <ul class="breadcrumb list-inline text-uppercase text-center">
+                        <li>
+                            <a href="{{url('/')}}">Home</a>
+                        </li>
+                        <li>
+                           <a href="{{url('/products')}}">Proizvodi</a>
+                            
+                        </li>
+                      
+                    </ul>
+                </div>
+            </section>
+
 		<div id="content" class="demos">
 			<div class="container">
 				<div class="row">
@@ -26,7 +34,7 @@
 								
 								<!-- Text input-->
 								<div class="form-group">
-									<label class="col-md-3 control-label">Your name:</label>  
+									<label class="col-md-3 control-label">Ime:</label>  
 									<div class="col-md-5">
                                                                             <input name="customerName" class="form-control" type="text" value="{{old('customerName',$checkout->getCustomerName())}}">
 									</div>
@@ -41,7 +49,7 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-md-3 control-label">Your email:</label>  
+									<label class="col-md-3 control-label">Email:</label>  
 									<div class="col-md-5">
 										<input name="customerEmail" class="form-control" type="text" value="{{old('customerEmail',$checkout->getCustomerEmail())}}">
 									</div>
@@ -56,7 +64,7 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-md-3 control-label">Your phone:</label>  
+									<label class="col-md-3 control-label">Telefon:</label>  
 									<div class="col-md-5">
 										<input name="customerPhone" class="form-control" type="text" value="{{old('customerPhone',$checkout->getCustomerPhone())}}">
 									</div>
@@ -71,7 +79,7 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-md-3 control-label">Your Country:</label>  
+									<label class="col-md-3 control-label">Zemlja:</label>  
 									<div class="col-md-5">
 										<input name="customerCountry" class="form-control" type="text" value="{{old('customerCountry',$checkout->getCustomerCountry())}}">
 									</div>
@@ -86,7 +94,7 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-md-3 control-label">Your City:</label>  
+									<label class="col-md-3 control-label">Grad:</label>  
 									<div class="col-md-5">
 										<input name="customerCity" class="form-control" type="text" value="{{old('customerCity',$checkout->getCustomerCity())}}">
 									</div>
@@ -101,7 +109,7 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-md-3 control-label">Your ZIP Code:</label>  
+									<label class="col-md-3 control-label">ZIP Kod:</label>  
 									<div class="col-md-5">
 										<input name="customerZip" class="form-control" type="text" value="{{old('customerZip',$checkout->getCustomerZip())}}">
 									</div>
@@ -116,7 +124,7 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-md-3 control-label">Your Address:</label>  
+									<label class="col-md-3 control-label">Adresa:</label>  
 									<div class="col-md-5">
 										<input name="customerAddress" class="form-control" type="text" value="{{old('customerAddress',$checkout->getCustomerAddress())}}">
 									</div>
@@ -135,18 +143,18 @@
 
 								<!-- Form Name -->
 								<legend>
-									Delivery
+									Isporuka
 									<div class="pull-right">
 										<label>
 											<input type="checkbox" id="check_delivery_same" name="kk">
-											<small>same as your address</small>
+											<small>ista adresa</small>
 										</label>
 									</div>
 								</legend>
 								
 								<!-- Text input-->
 								<div class="form-group">
-									<label class="col-md-3 control-label">Delivery Country:</label>  
+									<label class="col-md-3 control-label">Zemlja isporuke:</label>  
 									<div class="col-md-5">
 										<input name="deliveryCountry" class="form-control" type="text" value="{{old('deliveryCountry',$checkout->getDeliveryCountry())}}">
 									</div>
@@ -161,7 +169,7 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-md-3 control-label">Delivery City:</label>  
+									<label class="col-md-3 control-label">Mesto isporuke:</label>  
 									<div class="col-md-5">
 										<input name="deliveryCity" class="form-control" type="text" value="{{old('deliveryCity',$checkout->getDeliveryCity())}}">
 									</div>
@@ -176,7 +184,7 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-md-3 control-label">Delivery ZIP Code:</label>  
+									<label class="col-md-3 control-label">ZIP kod isporuke:</label>  
 									<div class="col-md-5">
 										<input name="deliveryZip" class="form-control" type="text" value="{{old('deliveryZip',$checkout->getDeliveryZip())}}">
 									</div>
@@ -191,7 +199,7 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-md-3 control-label">Delivery Address:</label>  
+									<label class="col-md-3 control-label">Adresa isporuke:</label>  
 									<div class="col-md-5">
 										<input name="deliveryAddress" class="form-control" type="text" value="{{old('deliveryAddress',$checkout->getDeliveryAddress())}}">
 									</div>

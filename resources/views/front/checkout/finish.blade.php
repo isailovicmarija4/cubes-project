@@ -1,19 +1,25 @@
 @extends('front.layout')
-
-@section('head_title', 'Checkout - Finished')
-
 @section('content')
-<div id="highlighted">
-	<div class="container">
-		<div class="header">
-			<h2 class="page-title">
-				<span>
-					Checkout - Finished
-				</span>
-			</h2>
-		</div>
-	</div>
-</div>
+@section('head_title', 'Checkout')
+		   <section class="frid clearfix">
+                <figure>
+                    <img src="{{url('/skins/front/img/webshop.JPG')}}" alt="" class="img-responsive"/>
+                </figure>
+                <div class="gridView">
+                    <h3 class="text-uppercase text-center">CHECKOUT</h3>
+                    <ul class="breadcrumb list-inline text-uppercase text-center">
+                        <li>
+                            <a href="{{url('/')}}">Home</a>
+                        </li>
+                        <li>
+                           <a href="{{url('/products')}}">Proizvodi</a>
+                            
+                        </li>
+                      
+                    </ul>
+                </div>
+            </section>
+
 <div id="content">
 	<div class="container portfolio">
 		<div class="row">
@@ -21,17 +27,17 @@
 				<!-- system Messages -->
 				
 				<div class="jumbotron">
-					<h1>Order #32121</h1>
+					<h1>Narudzbina {{$checkout->id}}</h1>
 				</div>
 				<hr>
 				<h2>Order Items</h2>
 				<table id="shopping-cart-table" class="table table-striped table-hover">
 					<thead>
 						<th></th>
-						<th>Photo</th>
-						<th>Title</th>
-						<th class="text-right">Price</th>
-						<th class="text-right" colspan="2">Qty</th>
+						<th>Slika</th>
+						<th>Naziv</th>
+						<th class="text-right">Cena</th>
+						<th class="text-right" colspan="2">Koli</th>
 						<th class="text-right" colspan="2">Subtotal</th>
 					</thead>
 					<tbody>

@@ -9,7 +9,10 @@ class ProductCategory extends Model
 
  protected $table = 'product_categories';
 	
-	protected $fillable = ['title', 'description'];
+
+	
+	protected $fillable = [ 'title', 'description'];
+	
 	
 	
 	
