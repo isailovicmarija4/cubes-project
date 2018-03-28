@@ -23,6 +23,21 @@
 			<span class="nav-link-text">File Manager</span>
 		</a>
 	</li>
+        	<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Products">
+		<a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#products-submenu" data-parent="#sideMenu">
+			<i class="fa fa-fw fa-barcode"></i>
+			<span class="nav-link-text">Proizvodi</span>
+		</a>
+		<ul class="sidenav-second-level collapse" id="products-submenu">
+			<li>
+				<a class="active" href="{{route('admin.products.index')}}">Proizvodi</a>
+			</li>
+			<li>
+				<a href="{{route('admin.product-categories.index')}}">Categorije</a>
+			</li>
+			
+		</ul>
+	</li>
 	<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tags">
 		<a class="nav-link" href="{{route('admin.tags.index')}}">
 			<i class="fa fa-fw fa-tags"></i>

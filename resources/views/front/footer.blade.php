@@ -58,7 +58,7 @@
                                         <p class="map"><span class="fa fa-phone"></span>&nbsp; 0115550055</p>
                                     </li>
                                     <li>
-                                        <p class="map"><a href="mailto:contact@plashbeauty.com"><span class="fa fa-envelope"></span>&nbsp; dermak@gmail.com</a></p>
+                                        <p class="map"><a href="mailto:contact@plashbeauty.com"><span class="fa fa-envelope"></span>&nbsp; dermac@gmail.com</a></p>
                                     </li>
                                 </ul>
                             </article>

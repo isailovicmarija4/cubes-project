@@ -11,13 +11,30 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
+Route::get('/', 'HomeController@index')->name('index');
+Route::get('/about-us', 'HomeController@aboutUs')->name('about-us');
+Route::get('/team', 'TeamController@index')->name('team');
 
+Route::get('/products', 'ProductsController@allProducts')->name('products.all');
+Route::get('/products/category/{id}', 'ProductsController@category')->name('products.category');
+Route::get('/products/product/{id}', 'ProductsController@oneProduct')->name('products.product');
+Route::get('/products/on-sale', 'ProductsController@onSale')->name('products.on-sale');
 
 Route::get('/contact-us', 'ContactController@show')->name('contact-us');
 Route::post('/contact-us', 'ContactController@process');
 
 Route::get('/page/{id}/{slug?}', 'StaticPagesController@page')->name('static-page');
+
+
+
+ Route::get('/shopping-cart', 'ShoppingCartController@index')->name('shopping-cart');
+Route::post('/shopping-cart/add-product', 'ShoppingCartController@addProduct')->name('shopping-cart.add-product');
+Route::post('/shopping-cart/remove-product', 'ShoppingCartController@removeProduct')->name('shopping-cart.remove-product');
+
+Route::get('/checkout', 'CheckoutController@index')->name('checkout');
+Route::post('/checkout', 'CheckoutController@process');
+Route::get('/checkout/confirmation', 'CheckoutController@confirmation')->name('checkout.confirmation');
+Route::get('/checkout/finish', 'CheckoutController@finish')->name('checkout.finish');
 
 // ADD FRONTEND ROUTES HERE
 
@@ -54,6 +71,7 @@ Route::middleware('auth')
 	
 	Route::post('/tags/delete', 'TagsController@delete')->name('admin.tags.delete');
 	
+   
 	
 	//Users routes
 	Route::get('/users', 'UsersController@index')->name('admin.users.index');
@@ -109,6 +127,32 @@ Route::middleware('auth')
 	Route::post('/static-pages/reorder', 'StaticPagesController@reorder')->name('admin.static-pages.reorder');
 	
 	// ADD ADMIN ROUTES HERE
+	
+	//Product Categories routes
+	Route::get('/product-categories', 'ProductCategoriesController@index')->name('admin.product-categories.index');
+	
+	Route::get('/product-categories/add', 'ProductCategoriesController@add')->name('admin.product-categories.add');
+	Route::post('/product-categories/add', 'ProductCategoriesController@insert');
+			
+	Route::get('/product-categories/edit/{id}', 'ProductCategoriesController@edit')->name('admin.product-categories.edit');
+	Route::post('/product-categories/edit/{id}', 'ProductCategoriesController@update');
+	
+	Route::post('/product-categories/delete', 'ProductCategoriesController@delete')->name('admin.product-categories.delete');
+
+
+	
+	//Products routes
+	Route::get('/products', 'ProductsController@index')->name('admin.products.index');
+	Route::get('/products/datatable', 'ProductsController@datatable')->name('admin.products.datatable');
+	
+	Route::get('/products/add', 'ProductsController@add')->name('admin.products.add');
+	Route::post('/products/add', 'ProductsController@insert');
+			
+	Route::get('/products/edit/{id}', 'ProductsController@edit')->name('admin.products.edit');
+	Route::post('/products/edit/{id}', 'ProductsController@update');
+	
+	Route::post('/products/delete', 'ProductsController@delete')->name('admin.products.delete');
+	
 	
 	
 	

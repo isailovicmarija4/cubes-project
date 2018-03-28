@@ -798,7 +798,7 @@ main{
     bottom: 0;
 }
 .gridView h3{
-    color: #fff;
+    color: #000;
     font-family: 'Josefin Sans', sans-serif !important;
     font-weight: bold;
 }
@@ -866,6 +866,7 @@ main{
 .categories fa-toggle-up{
     color: #a0a0a0;
     font-weight: 100;
+    
 }
 .categories .fa-toggle-down:hover,
 .categories fa-toggle-up:hover{

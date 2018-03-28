@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{trans('front.main_title')}} | </title>
+        <title>DERMA CLINIC | @yield('head_title') </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -25,19 +25,7 @@
         <!-- HEADER -->
         <header>
             
-                 <div class="container">
-                   <div class="col-md-2">
-                       
-                       <p>   Takovska 5,Beograd </p></div>
-                    <div class="col-md-2">
-                            <p>  KONTAKT   <i class="fa fa-phone" style="font-size: 20px ; margin-right: 5px;">   0115550055</i></p>
-              
-                        
-   
-                        
-               </div>
-                    </div>
-            
+    
             
             <!-- NAVIGATION -->
             	@include('front.navigation')
@@ -77,7 +65,7 @@
         <script src="{{url('/skins/front/js/validator.js')}}" type="text/javascript"></script>
         <script src="{{url('/skins/front/js/main.js')}}"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
        
     </body>
 </html>
