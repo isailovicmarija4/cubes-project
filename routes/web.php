@@ -13,7 +13,7 @@
 
 Route::get('/', 'HomeController@index')->name('index');
 Route::get('/about-us', 'HomeController@aboutUs')->name('about-us');
-Route::get('/team', 'TeamController@index')->name('team');
+
 
 Route::get('/products', 'ProductsController@allProducts')->name('products.all');
 Route::get('/products/category/{id}', 'ProductsController@category')->name('products.category');

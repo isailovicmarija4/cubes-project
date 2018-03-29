@@ -41,7 +41,7 @@
                         
                           <div class="col-xs-6 col-sm-4">
                             <article>
-                                <button class="showItems"> {{$products->total()}}</button>
+                                <button class="showItems">Svi proizvodi  {{$products->total()}}</button>
                             </article>
                         </div>
                         <div class="col-xs-8 col-sm-4">
@@ -70,9 +70,9 @@
                     <div class="row">
                         <div class="col-md-3 skinCare menuHide">
                             <article class="categories">
-                                <h5>Proizvodi  <small>({{$products->total()}} proizvoda)</small> </h5>
+                            
                                 <ul class="filter list-unstyled">
-                                    <li role="menuitem"><a href="{{url('/products')}}" tabindex="-1">Svi proizvodi</a></li><br>
+                                    <li class="text-uppercase" role="menuitem"><a href="{{url('/products')}}" tabindex="-1">Svi proizvodi <small>({{$products->total()}} proizvoda)</small> </a></li><br>
                                   <li class="text-uppercase clearfix">
                                         Kategorija 
                                         <a href="javascript:void(0)" class="down pull-right"><span class="fa fa-toggle-down"> </span></a>

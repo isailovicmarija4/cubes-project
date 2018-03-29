@@ -9,7 +9,7 @@
             <!-- SECTION 1 "frid" -->
             <section class="frid clearfix">
                 <figure>
-                    <img src="{{url('/skins/front/img/main-img.jpg')}}" alt="" class="img-responsive"/>
+                    <img src="{{url('/skins/front/img/about-us.jpg')}}" alt="" class="img-responsive"/>
                   
                  
                 </figure>
@@ -48,7 +48,22 @@
  </p>
                                 <p>
                                      Mozete uživati u miru i u vrhunskim tretmanima i najkvalitetnijoj kozmetici. Dočekaće Vas prijatno i pre svega stručno osoblje, edukovano kako kod nas tako i u inostranstvu. Na našoj klinici nalazi se pravo malo carstvo za sve one kojima je cilj lepši izgled i očuvanje kože lica i tela.
-                                </p><br><br>
+                                </p><br>    <h4 class="text-uppercase">Derma clinic tim</h4> 
+                                <p>
+      čine dermatolozi i plastični hirurzi koji se stalno stručno usavršavaju i postižu zavidne rezultate u dijagnostici, lečenju i podmlađivanju kože bez obzira na složenost problema.
+  
+
+ </p>
+                                <p>
+    Članovi našeg tima su aktivni i vodeći članovi organizacija među kojima su:
+    <br>
+    
+    
+    Udruženje DermatologaSrbije<br>
+
+    Evropsko Udruženje Dermatologa <br>
+
+    Evropsko Udruženje za Lasersku Dermatologiju <br><br>
                                 <p>Pratite nas na:</p>
                                 <ul class="list-inline list-unstyled">
                                     <li><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -67,12 +82,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <!-- SECTION 4 " -->
-             
-                
-            <section class="popular">
+           
                 <h4 class="text-uppercase text-center">Naš  tim</h4>
                 <img src="{{url('/skins/front/img/line.png')}}" alt="" class="img-responsive center-block"/>
             </section>
@@ -83,7 +93,7 @@
    
                 <div class="container">
                     
-            
+
        
                         <div id="owl-example" class="owl-carousel">   
                             
@@ -93,7 +103,7 @@
                                     <img src="{{url('/skins/front/img/doctor-1.jpg')}}" alt="" class="img-responsive center-block"/>
 
                                     <div class="teamMember text-center">
-                                        <a href="{{route('team')}}""><h4 class="text-uppercase">SENKA JOVIĆ</h4></a>
+                                        <h4 class="text-uppercase">SENKA JOVIĆ</h4>
                                         <h3>DR SPEC.</h3>
                                         <p>
                                           specijalista dermatovenerologije
@@ -115,7 +125,7 @@
                                     <img src="{{url('/skins/front/img/doctor-2.jpg')}}" alt="" class="img-responsive center-block"/>
                                 </figure>
                                 <div class="teamMember text-center">
-                                    <a href="{{route('team')}}""><h4 class="text-uppercase">FILIP MARIĆ</h4></a>
+                                  <h4 class="text-uppercase">FILIP MARIĆ</h4>
                                     <h3>DR SPEC.</h3>
                                     <p>
                                        specijalista fizikalne medicine
@@ -136,7 +146,7 @@
                                     <img src="{{url('/skins/front/img/doctor-3.jpg')}}" alt="" class="img-responsive center-block"/>
                                 </figure>
                                 <div class="teamMember text-center">
-                                    <a href="{{route('team')}}""><h4 class="text-uppercase">DANKA STEVIĆ</h4></a>
+                              <h4 class="text-uppercase">DANKA STEVIĆ</h4>
                                     <h3>DR SPEC.</h3>
                                     <p>
                                       specijalista plastične, estetske i rekonstruktivne hirurgije
@@ -158,7 +168,7 @@
                                     <img src="{{url('/skins/front/img/doctor-4.jpg')}}" alt="" class="img-responsive center-block"/>
                                 </figure>
                                 <div class="teamMember text-center">
-                                    <a href="{{route('team')}}""><h4 class="text-uppercase">IRINA JOVANOVIĆ</h4></a>
+                                   <h4 class="text-uppercase">IRINA JOVANOVIĆ</h4>
                                     <h3>DR SPEC.</h3>
                                     <p>
                                        specijalista plastične, estetske i rekonstruktivne hirurgije
@@ -180,7 +190,7 @@
                                     <img src="{{url('/skins/front/img/doctor-5.jpg')}}" alt="" class="img-responsive center-block"/>
                                 </figure>
                                 <div class="teamMember text-center">
-                                    <a href="{{route('team')}}"><h4 class="text-uppercase">MARTA DAKIĆ</h4></a>
+                                  <h4 class="text-uppercase">MARTA DAKIĆ</h4>
                                     <h3>DR SPEC.</h3>
                                     <p>
                                          specijalista dermatovenerologije
@@ -200,7 +210,7 @@
                         
                     
 
-                    </div> </div>
+                    </div> 
                 
             </section>
               

@@ -5,7 +5,7 @@
 
   <section class="frid clearfix">
                 <figure>
-                    <img src="{{url('/skins/front/img/products2.jpg')}}" alt="" class="img-responsive"/>
+                    <img src="{{url('/skins/front/img/sensitive.jpg')}}" alt="" class="img-responsive"/>
                 </figure>
                 <div class="gridView">
                     <h3 class="text-uppercase text-center">Proizvodi</h3>
@@ -17,11 +17,7 @@
                             <a href="{{url('/products')}}"> Proizvodi</a>
                             
                         </li>
-                        <li>
-                           
-                            <a>   Kategorija : {{$productCategory->title}}</a>
-                    
-                        </li>
+                       
                       
                     </ul>
                 </div>

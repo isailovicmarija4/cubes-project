@@ -861,25 +861,35 @@ main{
 }
 .categories{
     margin-bottom: 20px;
+    
 }
 .categories .fa-toggle-down,
 .categories fa-toggle-up{
-    color: #a0a0a0;
+    color: #5b5959 !important;
     font-weight: 100;
     
 }
 .categories .fa-toggle-down:hover,
 .categories fa-toggle-up:hover{
-    color: #6bc513;
+    color:#5b5959;
 }
 .categories ul a:focus{
     outline: none;
+  color: #5b5959;
 }
 ul.filter li ul{
     display: none;
 }
+ul.filter li a{
+    color: #5b5959 !important;
+}
 ul.filterList{
     padding-left: 10px;
+    color: #5b5959 !important;
+}
+ul.filterList li a{
+    
+    color: #5b5959 !important;
 }
 /*******price range filter - start******/
 .price{
